@@ -18,8 +18,9 @@ const initialState = {
 const API_KEY = "5045f801ea8344abafd645c0eacdfc90";
 
 export const getNews = createAsyncThunk(
-  "news/getNews", //! 👉 action type name
-  //! async callback func:
+  "news/getNews",
+  //! 👉 action type name
+  //! async 👇 callback func:
   async () => {
     const url = `https://newsapi.org/v2/top-headlines?country=tr&apiKey=${API_KEY}`;
     try {
@@ -55,6 +56,6 @@ const newsSlice = createSlice({
 
 //! 👆 ExtraReducers 👉 responding to defined actions in other slices, especially to actions created by createAsyncThunk used to reply. 💨 It is used here to respond to the actions of slices elsewhere, if there is createAsyncThunk we have to use it!!
 
-export const { clearNewsList } = authSlice.actions;
+export const { clearNewsList } = newsSlice.actions;
 
 export default newsSlice.reducer;
