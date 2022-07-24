@@ -1,6 +1,4 @@
-# Redux Toolkit Example (NEWS)
-
-<a href="#" target="_blank"> <img src="./src/assets/redux.svg" alt="redux-toolkit" height="50"/> </a>
+# Redux Toolkit <a href="#" target="_blank"> <img src="./src/assets/redux.svg" alt="redux-toolkit" height="50"/> </a> Example (NEWS)
 
 ![Project Snapshot](./src/assets/React-Project-14_News-With-Redux-Toolkit.gif)
 
