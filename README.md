@@ -1,9 +1,11 @@
 # Redux Toolkit Ornegi
 
+![Project Snapshot](./src/assets/React-Project-14_News-With-Redux-Toolkit.gif)
+
 ## `Kurulum`
 
 ```
-npm install veya yarn 
+npm install veya yarn
 ```
 
 ## `Kullanilan Kutuphaneler`
