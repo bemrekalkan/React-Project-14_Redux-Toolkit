@@ -1,14 +1,10 @@
-# Redux Toolkit Ornegi
+# Redux Toolkit Example (NEWS)
+
+<a href="#" target="_blank"> <img src="./src/assets/redux.svg" alt="redux-toolkit" height="50"/> </a>
 
 ![Project Snapshot](./src/assets/React-Project-14_News-With-Redux-Toolkit.gif)
 
-## `Kurulum`
-
-```
-npm install veya yarn
-```
-
-## `Kullanilan Kutuphaneler`
+## `Libraries Used`
 
 - `@reduxjs/toolkit`
 - `react-redux`
@@ -18,14 +14,14 @@ npm install veya yarn
 - `@emotion/react`
 - `@emotion/styled`
 
-## `Kullanilacak API`:
+## `API Used`:
 
 - https://newsapi.org/
-  (Get Key butonuna tiklanarak key alinabilir)
+  (You can get a key by clicking the Get Key button.)
 
 - URL:
   const url = `https://newsapi.org/v2/top-headlines?country=tr&apiKey=${API_KEY}`;
 
-## `Kullanilacak Araclar`
+## `Tolls Used`
 
-- `Redux Dev Tools` : Chrome uzerinde calisan ve global state uzerinde yapilan tum degisikliklerin takip edilmesini saglayan tarayici uzantisidir. Indirmek icin [tiklayiniz.](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)`
+- `Redux Dev Tools` : It is a browser extension that runs on Chrome and enables tracking of all changes made to the global state. For download [click.](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)`
